@@ -26,16 +26,67 @@ body{
     color: #FE347E;
     text-decoration: underline;
     text-decoration-color: #4D4DFF;
-    padding: 1.5em;
+    padding: .5em;
     font-size: 3.2em;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
-    margin-top: 8em;
+    margin-top: 1em;
 }
 
 .right{
     width: 60vw;
     height: 100vh;
     background-color: black;
-    color: white;
+    color: rgba(137,137,137,255);
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero{
+    height: 33%;
+    font-size: 1.8em;
+    padding: 3.5em 2em;
+}
+
+.form{
+    height: 33%;
+    background-color: rgba(6,6,6,255);
+    padding: 2em;
+}
+
+.form h2{
+    font-size: 2em;
+    margin-bottom: 1.5em;
+}
+
+.input-container{
+    display: flex;
+}
+
+.left-form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.right-form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+label{
+    font-size: 1.4em;
+}
+
+input{
+    background-color: black;
+    color: rgba(137,137,137,255);
+    border: 1px solid rgba(137,137,137,255);
+    font-size: 1.6em;
+    width: 90%;
+    margin-bottom: 1em;
+}
+
+input:focus{
+    border: 1px solid #FE347E;
 }
