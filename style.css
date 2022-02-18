@@ -51,6 +51,8 @@ body{
     height: 33%;
     background-color: rgba(6,6,6,255);
     padding: 2em;
+    box-shadow: 1.8em 0em 2.2em .1em white;
+    overflow: hidden;
 }
 
 .form h2{
@@ -88,5 +90,36 @@ input{
 }
 
 input:focus{
-    border: 1px solid #FE347E;
+    border: 2px solid #FE347E;
+}
+
+.footer{
+    padding: 4em 2em;
+}
+
+.footer button{
+    padding: 1em 2em;
+    background-color: transparent;
+    border: .2em solid #FE347E;
+    color: #FE347E;
+    font-size: 1.6em;
+    border-radius: .5em;
+    margin-bottom: 2em;
+}
+
+.footer button:hover{
+    cursor: pointer;
+}
+
+.footer p{
+    font-size: 1.8em;
+}
+
+.footer span{
+    color: #FE347E;
+    font-weight: 600;
+}
+
+.footer span:hover{
+    cursor: pointer;
 }
